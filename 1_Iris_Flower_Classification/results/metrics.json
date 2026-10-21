@@ -1,0 +1,92 @@
+Warning: fs was declared with const; use let for reassignable variables.
+{
+  "dataset": "Iris: 150 rows, 4 measurements, 3 classes",
+  "split": "80/20 stratified, seed 42",
+  "model_accuracy": {
+    "1-Nearest Neighbor": 0.9333333333333333,
+    "Gaussian Naive Bayes": 0.9333333333333333
+  },
+  "selected_model": "1-Nearest Neighbor",
+  "selected_accuracy": 0.9333333333333333,
+  "classification_reports": {
+    "1-Nearest Neighbor": {
+      "confusion_matrix": [
+        [
+          10,
+          0,
+          0
+        ],
+        [
+          0,
+          10,
+          0
+        ],
+        [
+          0,
+          2,
+          8
+        ]
+      ],
+      "per_class": {
+        "setosa": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        },
+        "versicolor": {
+          "precision": 0.8333333333333334,
+          "recall": 1.0,
+          "f1": 0.9090909090909091,
+          "support": 10
+        },
+        "virginica": {
+          "precision": 1.0,
+          "recall": 0.8,
+          "f1": 0.888888888888889,
+          "support": 10
+        }
+      }
+    },
+    "Gaussian Naive Bayes": {
+      "confusion_matrix": [
+        [
+          10,
+          0,
+          0
+        ],
+        [
+          0,
+          10,
+          0
+        ],
+        [
+          0,
+          2,
+          8
+        ]
+      ],
+      "per_class": {
+        "setosa": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        },
+        "versicolor": {
+          "precision": 0.8333333333333334,
+          "recall": 1.0,
+          "f1": 0.9090909090909091,
+          "support": 10
+        },
+        "virginica": {
+          "precision": 1.0,
+          "recall": 0.8,
+          "f1": 0.888888888888889,
+          "support": 10
+        }
+      }
+    }
+  },
+  "note": "Educational baseline models implemented with Python's standard library."
+}
