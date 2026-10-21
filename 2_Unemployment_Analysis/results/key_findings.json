@@ -1,0 +1,15 @@
+Warning: fs was declared with const; use let for reassignable variables.
+{
+  "source_file": "Unemployment_in_India.csv",
+  "rows_after_cleaning": 740,
+  "date_range": [
+    "2019-05-31",
+    "2020-06-30"
+  ],
+  "monthly_metric_note": "Unweighted mean across available state-by-area observations; not an official national unemployment rate.",
+  "pre_march_2020_mean_state_area_rate_pct": 9.508,
+  "march_to_june_2020_mean_state_area_rate_pct": 17.78,
+  "april_2020_mean_state_area_rate_pct": 23.642,
+  "may_2020_mean_state_area_rate_pct": 24.875,
+  "seasonality_limitation": "Only 14 months are present, too short to establish recurring annual seasonality."
+}
