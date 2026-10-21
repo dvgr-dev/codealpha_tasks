@@ -1,0 +1,9 @@
+Warning: fs was declared with const; use let for reassignable variables.
+{
+  "intercept": 3.2057756089277496,
+  "coefficients": {
+    "TV": 0.04209373017877955,
+    "Radio": 0.19639371376872108,
+    "Newspaper": 0.0046647464293631076
+  }
+}
